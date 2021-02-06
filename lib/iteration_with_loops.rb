@@ -12,13 +12,11 @@ while row_index < src.count do
     if src[row_index][element_index].is_a?==true
       nested_strings<<src[row_index][element_index]
     end
-    
-    total += src[row_index][element_index]
-    element_index += 1
+  element_index += 1
   end
   row_index += 1
 end
-total 
+nested_strings
 end
 #binding.pry
 
