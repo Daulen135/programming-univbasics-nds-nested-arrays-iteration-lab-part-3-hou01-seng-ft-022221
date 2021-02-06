@@ -17,7 +17,7 @@ while row_index < src do
   row_index += 1
 end
 total 
-binding.pry
+
 
 
 
